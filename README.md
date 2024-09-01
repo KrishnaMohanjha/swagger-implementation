@@ -1,2 +1,15 @@
 # swagger-implementation
-&lt;dependency> &lt;groupId>org.springdoc&lt;/groupId> &lt;artifactId>springdoc-openapi-starter-webmvc-ui&lt;/artifactId> &lt;version>2.5.0&lt;/version> &lt;/dependency>application.properties#spring open-api config springdoc-swagger-ui.path=/swagger-ui.html springdoc.api-docs.path=/api-docs
+<!-- spring openapi implementation-->
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+
+
+application.properties
+
+#spring open-api config
+springdoc-swagger-ui.path=/swagger-ui.html 
+springdoc.api-docs.path=/api-docs
